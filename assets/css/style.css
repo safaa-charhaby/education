@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 .cursor {
-  url(https://github.com/safaa-charhaby/SafaaCharhaby_CV/blob/main/minimal-donut-cursor-pack%20(1).png), auto;
+  url("https://github.com/safaa-charhaby/SafaaCharhaby_CV/blob/main/minimal-donut-cursor-pack%20(1).png"), auto;
   position: fixed;
   width: 40px;
   height: 40px;
@@ -136,6 +136,13 @@ h6 {
 /**
 * Desktop Navigation 
 */
+@media (min-width: 991px) {
+  .mobile-nav{
+    display: none;
+    padding: 0;
+    visibility: hidden;
+  }
+}
 .nav-menu {
   padding: 0;
   display: block;
@@ -223,6 +230,10 @@ h6 {
 /**
 * Mobile Navigation 
 */
+.mobile-nav{
+  display: block;
+  margin-left: 120px;
+}
 .mobile-nav-toggle {
   position: fixed;
   right: 10px;
