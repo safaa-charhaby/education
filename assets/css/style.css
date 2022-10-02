@@ -250,11 +250,11 @@ h6 {
   cursor: pointer;
   border-radius: 50px;
   padding: 5px;
+  overflow: none;
 }
 
 .mobile-nav-toggle i {
   color: #0000;
-  padding-top: 50px;
 }
 
 .mobile-nav-active {
