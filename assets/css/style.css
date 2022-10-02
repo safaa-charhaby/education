@@ -147,12 +147,13 @@ h6 {
 .nav-menu {
   padding: 0;
   display: block;
+  
 }
 
 .nav-menu * {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: center;
 }
 
 .nav-menu>ul>li {
@@ -184,7 +185,7 @@ h6 {
 
 .nav-menu a span,
 .nav-menu a:focus span {
-  padding: 10px 0 10px 0;
+  padding: 10px 10px 10px 10px;
   color: #fff;
 }
 
