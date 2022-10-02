@@ -142,6 +142,7 @@ h6 {
     padding: 0;
     visibility: hidden;
     overflow: hidden;
+    width: 50%;
   }
 }
 .nav-menu {
