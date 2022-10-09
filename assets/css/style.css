@@ -17,6 +17,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #141619;
+  color: white;
 }
 
 a {
@@ -383,7 +384,7 @@ h6 {
   padding-bottom: 20px;
   MARGIN-TOP: 60px;
   position: RELATIVE;
-  color: #45505b;
+  color: #6c1671;
 }
 
 .section-title h2::before {
@@ -403,7 +404,7 @@ h6 {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #d786dc;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -1152,16 +1153,18 @@ h6 {
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
-  border-radius: 4px;
+  border-radius: 12px;
   box-shadow: none;
   font-size: 14px;
 }
 
 .contact .php-email-form input {
+  background-color: #45505b;
   height: 44px;
 }
 
 .contact .php-email-form textarea {
+  background-color: #45505b;
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
