@@ -610,11 +610,7 @@ h6 {
   border: 2px solid #0563bb;
 }
 .resume .textquote {
-  background: url("https://raw.githubusercontent.com/safaa-charhaby/education/ff32b977788caf5b645b1e28b8547fdcfd6e60bb/assets/img/undraw_graduation_re_gthn.svg") top right no-repeat;
-  z-index: 1000;
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
+  font-size: 100px;
   position: relative;
 }
 
