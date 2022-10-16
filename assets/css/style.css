@@ -611,9 +611,17 @@ h6 {
 }
 .resume .textquote {
   font-size: 25px;
-  position: relative;
+  position: absolute;
+  margin-top: 100px;
+  
 }
-
+svg {
+  height: 120vh;
+  width: 100%;
+  position: relative;
+  
+  
+}
 
 /*--------------------------------------------------------------
 # Portfolio
