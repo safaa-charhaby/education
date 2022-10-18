@@ -613,6 +613,7 @@ h6 {
   font-size: 25px;
   position: absolute;
   margin-top: 100px;
+  text-align: center;
   
 }
 svg {
@@ -1167,17 +1168,25 @@ svg {
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
-  border-radius: 12px;
+  border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
 }
 
 .contact .php-email-form input {
-  background-color: #45505b;
   height: 44px;
+  background-color: #141619;
+}
+.contact .php-email-form input:hover {
+  height: 44px;
+  background-color: #45505b;
 }
 
 .contact .php-email-form textarea {
+  background-color: #141619;
+  padding: 10px 12px;
+}
+.contact .php-email-form textarea:hover {
   background-color: #45505b;
   padding: 10px 12px;
 }
