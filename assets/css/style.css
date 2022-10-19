@@ -609,7 +609,8 @@ h6 {
   background: #fff;
   border: 2px solid #0563bb;
 }
-.resume .textquote {
+@media(min-width: 900px;) {
+.resume .this {
   font-size: 25px;
   position: absolute;
   margin-top: 100px;
@@ -622,6 +623,23 @@ svg {
   position: relative;
   
   
+}
+}
+@media(max-width: 901px;) {
+.resume .this {
+  font-size: 25px;
+  position: absolute;
+  margin-top: 100px;
+  text-align: center;
+  
+}
+svg {
+  height: 120vh;
+  width: 100%;
+  position: relative;
+  
+  
+}
 }
 
 /*--------------------------------------------------------------
